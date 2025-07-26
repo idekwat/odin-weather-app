@@ -9,8 +9,15 @@
 <body>
     <form>
         <input type="text" id="city" name="city" placeholder="City Name">
-        <input type="button" value="Submit" onclick="getData()">
+        <button id = "submitButton">Submit</button>
     </form>
+    <div id = weatherData>
+        <h1 id ="currentLocation"></h1>
+        <h2 id ="currentTime"></h2>
+        <h3 id ="description"></h3>
+        <h4 id ="currentTemp"></h4>
+
+    </div>
     <script src ="scripts.js"></script>
 </body>
 </html>
